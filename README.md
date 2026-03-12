@@ -17,11 +17,13 @@ git clone https://github.com/yourname/LimbusCompanyAutoScript.git
 cd LimbusCompanyAutoScript
 
 pip install -r requirements.txt
+```
 
 ## Usage 
 
 ```bash
 python main.py
+```
 
 ## Project Structure
 
@@ -31,11 +33,12 @@ tasks/      automation tasks
 scheduler/  task scheduler
 ai/         AI strategy
 gui/        GUI interface
-
-data/       AI dataset and logs
-utils/      
+resources/  templates, regions, etc.
+data/       logs, saved data
+utils/      other tools
 
 ## Development
+
 Planned milestones:
 
 v0.1 screenshot & click
