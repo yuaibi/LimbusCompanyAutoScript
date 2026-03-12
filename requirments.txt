@@ -1,9 +1,4 @@
-opencv-python
 numpy
-pillow
-pytesseract
 pywin32
-pyside6
-torch
-torchvision
-tqdm
+matplotlib
+pyuac

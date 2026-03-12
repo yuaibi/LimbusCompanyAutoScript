@@ -1,5 +1,3 @@
-
-
 class Controller:
 
     def click(self, x, y):
