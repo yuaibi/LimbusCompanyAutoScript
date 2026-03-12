@@ -1,0 +1,46 @@
+limbus-autobot
+│
+├─ core/                # 自动化核心
+│   ├─ controller.py
+│   ├─ capture.py
+│   └─ input.py
+│
+├─ vision/              # 图像识别
+│   ├─ template_matcher.py
+│   ├─ ocr.py
+│   └─ detector.py
+│
+├─ tasks/               # 自动化任务
+│   ├─ task_base.py
+│   ├─ battle_task.py
+│   ├─ dungeon_task.py
+│   └─ daily_task.py
+│
+├─ scheduler/           # 任务调度
+│   └─ scheduler.py
+│
+├─ ai/                  # AI接口
+│   ├─ strategy_interface.py
+│   ├─ dataset_manager.py
+│   └─ models/
+│
+├─ gui/                 # GUI界面
+│   ├─ main_window.py
+│   └─ control_panel.py
+│
+├─ resources/
+│   ├─ templates/
+│   └─ regions/
+│
+├─ data/
+│   └─ logs/
+│
+├─ utils/
+│   ├─ logger.py
+│   └─ config.py
+│
+├─ main.py
+├─ requirements.txt
+├─ README.md
+├─ LICENSE
+└─ .gitignore
